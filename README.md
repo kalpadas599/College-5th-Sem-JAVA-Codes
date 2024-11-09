@@ -14,15 +14,16 @@
 ```
 javac -d . per1/Person.java stu/Student.java emp/Employee.java emp/Faculty.java emp/Staff.java mainpkg1/MainDemoClass.java
 ```
+Back to parent folder:
+```
+cd ..
+```
 Run the main class:
 ```
 java collegeMgt.mainpkg1.MainDemoClass
 ```
-## Alternative Steps if Compilation Fails
-```
-cd ..
-```
-then
+## Alternative Steps if Compilation Fails [From collegeMgt's Parent Directory]
+
 ```
 javac -d . collegeMgt/per1/Person.java collegeMgt/stu/Student.java collegeMgt/emp/Employee.java collegeMgt/emp/Faculty.java collegeMgt/emp/Staff.java collegeMgt/mainpkg1/MainDemoClass.java
 ```
@@ -40,15 +41,16 @@ java collegeMgt.mainpkg1.MainDemoClass
 ```
 javac -d . shapes/Square.java shapes/Triangle.java shapes/Circle.java mainpkg2/MainClass.java
 ```
+go back to parent directory
+```
+cd ..
+```
 Run the main class:
 ```
 java geometry.mainpkg2.MainClass
 ```
-## Alternative Steps if Compilation Fails
-```
-cd ..
-```
-then
+## Alternative Steps if Compilation Fails [From geometry's Parent Directory]
+
 ```
 javac -d . geometry/shapes/Square.java geometry/shapes/Triangle.java geometry/shapes/Circle.java geometry/mainpkg2/MainClass.java
 ```
@@ -69,7 +71,7 @@ fields.
 ```
 javac per2/Person.java cust/Customer.java mainpkg3/MainClass.java
 ```
-go back directory
+go back to parent directory
 ```
 cd ..
 ```
